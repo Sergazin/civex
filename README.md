@@ -1,4 +1,4 @@
-# CiVeX Frontend | React + TypeScript + Vite
+# CiVeX
 
 ### Проект был создан в рамках хакатона Frееdоm Hасkаthоn 2024
 ---
