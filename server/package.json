@@ -1,0 +1,47 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/main.ts",
+    "dev": "bun --watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/lodash": "^4.17.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/password-hash": "^1.2.24",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.658.1",
+    "@aws-sdk/signature-v4-crt": "^3.658.1",
+    "@langchain/core": "^0.3.17",
+    "@langchain/openai": "^0.3.12",
+    "@langchain/pinecone": "^0.1.1",
+    "@pinecone-database/pinecone": "^4.0.0",
+    "axios": "^1.7.7",
+    "compression": "^1.7.4",
+    "date-fns": "^3.6.0",
+    "express": "^4.20.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.6.1",
+    "openai": "^4.71.1",
+    "password-hash": "^1.2.2",
+    "pdf-parse": "^1.1.1",
+    "text-from-pdf": "^1.1.2",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  }
+}
